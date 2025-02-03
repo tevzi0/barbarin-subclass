@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <element name="Slumbering Titan" type="Archetype" source="Homebrew" id="ID_ARCHETYPE_SLUMBERING_TITAN">
+    <supports>Barbarian</supports>
+    <description>
+      <p>Barbarians who follow the Path of the Slumbering Titan fight only when necessary, unleashing devastating power with minimal effort.</p>
+    </description>
+    
+    <features>
+      <feature level="3" name="Unshaken Might">
+        <description>
+          <p>Your relaxed nature makes you difficult to faze. You have advantage on Strength checks and saving throws while not incapacitated. When rolling for initiative, you can choose to roll with disadvantage. If you do, you gain temporary hit points equal to your Barbarian level + your Constitution modifier.</p>
+        </description>
+      </feature>
+      
+      <feature level="6" name="Effortless Power">
+        <description>
+          <p>While in Slumbering Wrath, you can add your Constitution modifier to damage instead of Strength. If you miss an attack while in Slumbering Wrath, you can choose to deal half damage instead of missing completely.</p>
+        </description>
+      </feature>
+      
+      <feature level="10" name="Unbothered Resilience">
+        <description>
+          <p>If subjected to an effect requiring a Constitution, Wisdom, or Charisma saving throw, you can choose to succeed once per long rest. If you take damage while not in Slumbering Wrath, you can use your reaction to halve the damage taken a number of times equal to your Constitution modifier per long rest.</p>
+        </description>
+      </feature>
+      
+      <feature level="14" name="Awakened Titan">
+        <description>
+          <p>When you enter Slumbering Wrath, you can choose to activate Awakened Titan. While active: your movement speed doubles, you gain resistance to all damage, your weapon attacks crit on 18-20, and you can make one additional attack as a bonus action. At the end of Slumbering Wrath, you gain one level of exhaustion but regain hit points as if you completed a short rest.</p>
+        </description>
+      </feature>
+    </features>
+  </element>
+</elements>
